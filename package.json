@@ -1,0 +1,21 @@
+{
+  "name": "word_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel-node src/main.js",
+    "yasi": "babel-node src/yasi.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.0.0",
+    "node-xlsx": "^0.21.0",
+    "xlsx-2-json": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1"
+  }
+}
